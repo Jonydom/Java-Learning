@@ -2,10 +2,14 @@ package org.example.algorithm.util;
 
 import lombok.Data;
 
+/**
+ * 构建单向链表
+ * 参考: https://blog.csdn.net/qq_34354584/article/details/103135976
+ */
 @Data
 public class ListNode {
-    private int val;
-    private ListNode next;
+    public int val;
+    public ListNode next;
     public ListNode(int val) {
         this.val = val;
     }

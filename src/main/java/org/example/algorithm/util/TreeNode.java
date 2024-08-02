@@ -1,12 +1,15 @@
 package org.example.algorithm.util;
 
+import lombok.Data;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
+@Data
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
     TreeNode(int x) { val = x; }
 
     public static TreeNode createBinaryTree(Integer[] arr, int numTh) {
