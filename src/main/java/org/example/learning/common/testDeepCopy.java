@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * @author Jonydom
- * @description TODO
+ * @description 实现深拷贝，拷贝对象中的引用对象（拷贝地址，拷贝内容）
  * @date 2024-09-05 12:04
  */
 public class testDeepCopy {
