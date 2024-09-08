@@ -1,13 +1,15 @@
-package org.example;
+package org.example.algorithm.tree;
 
 import org.example.algorithm.util.TreeNode;
 
 import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
 
-public class Main {
-
+/**
+ * @author Jonydom
+ * @description 105. 从前序与中序遍历序列构造二叉树
+ * @date 2024-09-08 13:51
+ */
+public class ConstructBinaryTree {
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
         // 没有元素了，不用再递归构建了
         if (preorder.length == 0) return null;

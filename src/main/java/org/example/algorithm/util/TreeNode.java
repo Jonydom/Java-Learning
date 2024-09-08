@@ -1,5 +1,6 @@
 package org.example.algorithm.util;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.util.Deque;
@@ -10,7 +11,7 @@ public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
-    TreeNode(int x) { val = x; }
+    public TreeNode(int x) { val = x; }
 
     public static TreeNode createBinaryTree(Integer[] arr, int numTh) {
         if (arr.length == 0) {
